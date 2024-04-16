@@ -9,6 +9,15 @@ img {
   display: block;
 }
 
+:root {
+  --primary: #f7c7d9;
+  --secondary: #273aaa;
+  --accent1: #fc4d5c;
+  --accent2: #d1ecef;
+  --accent3: #1d1d1b;
+  --accent4: #fff5eb;
+}
+
 p {
   font-family: "Archivo", sans-serif;
   font-weight: 400;
