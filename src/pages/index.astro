@@ -2,9 +2,12 @@
 import "../global.css";
 import Layout from "../Layouts/Layout.astro";
 import Infographic from "../components/Infographic.astro";
+import Button from "../components/Button.astro";
+const { variant } = Astro.props;
 ---
 
 <Layout title="GirlTalk">
   <h1>GirlTalk</h1>
   <Infographic />
+  <Button class="button" variant="primary">DOWNLOAD</Button>
 </Layout>
