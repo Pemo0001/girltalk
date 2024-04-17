@@ -1,3 +1,50 @@
 ---
 import "../global.css";
+import Button from "./Button.astro";
 ---
+
+<div class="bookcard">
+  <img class="hjerte" src="../../public/redheart.svg" alt="hjerte" />
+  <h3>HAR DU BRUG FOR AT TALE MED NOGEN OM DIT BARNS TRIVSEL?</h3>
+  <img class="calendar" src="../../public/calendar.svg" alt="kalender" />
+  <p>Er du i tvivl om eller bekymret for dit barns trivsel, er det vigtigt at række ud efter hjælp.</p>
+  <div class="button">
+    <Button variant="secondary">Book tid</Button>
+  </div>
+</div>
+
+<style>
+  .bookcard {
+    background-color: var(--secondary);
+    color: #fff;
+    max-width: 370px;
+    padding: 2rem 2rem;
+    border-radius: 20px;
+    position: relative;
+  }
+
+  .hjerte {
+    margin: 0 auto;
+  }
+  .calendar {
+    position: absolute;
+    right: 1rem;
+    top: 11rem;
+    transform: scale(75%);
+  }
+  h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    max-width: 92%;
+  }
+
+  p {
+    max-width: 80%;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .button {
+    text-align: center;
+  }
+</style>
