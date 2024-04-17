@@ -43,5 +43,6 @@ h6 {
   height: auto;
   z-index: 100;
   display: flex;
+  margin: auto;
    border: 1.5px solid var(--secondary);
 }
