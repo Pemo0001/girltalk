@@ -1,3 +1,73 @@
 ---
 import "../global.css";
 ---
+
+<div class="signupcard">
+  <h3>Tilmeld dig vores nyhedsbrev</h3>
+  <img class="letter1" src="../../public/letterwithheart.svg" alt="letter" />
+  <img class="letter2" src="../../public/letterwithheart.svg" alt="letter" />
+  <form>
+    <input type="text" id="name" name="name" placeholder="Navn.." /><br />
+    <input type="text" id="number" name="number" placeholder="Tlf. nr.." />
+    <br />
+    <input type="email" id="email" name="email" placeholder="Mail.." />
+    <p>Tilmeld dig for at få nyhedsbreve fra GirlTalk</p>
+    <input type="submit" value="Tilmeld" id="submit" />
+  </form>
+</div>
+
+<style>
+  .signupcard {
+    background-color: var(--secondary);
+    color: #fff;
+    max-width: 370px;
+    text-align: center;
+    padding: 2rem 2rem;
+    border-radius: 20px;
+    line-height: 3rem;
+    position: relative;
+  }
+
+  .letter1 {
+    position: absolute;
+    top: 5rem;
+    left: -0.5rem;
+    transform: scale(75%);
+  }
+
+  .letter2 {
+    position: absolute;
+    right: 0;
+    top: 5.5rem;
+    transform: rotate(-40deg) scale(75%);
+  }
+
+  #submit {
+    background-color: var(--accent2);
+    color: var(--secondary);
+    border-radius: 30px;
+    padding: 0.7rem 2.2rem;
+    border: none;
+    font-family: "Obviously", sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-bottom: 2rem;
+  }
+
+  p {
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+  }
+
+  input {
+    border: none;
+    font-size: 1.5rem;
+    width: 80%;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+</style>
