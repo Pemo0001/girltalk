@@ -1,0 +1,22 @@
+/* SPACING */
+s:root {
+  /* PRIMITIVES */
+  --spacing-1: 1px;
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+  --spacing-48: 48px;
+
+  /* TOKENS */
+  --spacing-xxs: var(--spacing-4);
+  --spacing-xs: var(--spacing-8);
+  --spacing-s: var(--spacing-16);
+  --spacing-m: var(--spacing-24);
+  --spacing-l: var(--spacing-32);
+  --spacing-xl: var(--spacing-40);
+  --spacing-xxl: var(--spacing-48);
+}

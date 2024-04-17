@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+background-color: var(--primary);
+}
+
 img {
   max-width: 100%;
   display: block;
@@ -34,8 +38,10 @@ h6 {
   text-transform: uppercase;
 }
 
-#t9_video {
-  width: 100%;
+#t9_infographic_1 {
+  width: 33%;
   height: auto;
   z-index: 100;
+  display: flex;
+   border: 1.5px solid var(--secondary);
 }
