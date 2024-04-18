@@ -1,4 +1,4 @@
-/* SPACING */
+/* SPACING px instead of REM */
 s:root {
   /* PRIMITIVES */
   --spacing-1: 1px;
