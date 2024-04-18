@@ -1,3 +1,44 @@
 ---
 import "../global.css";
 ---
+
+<div class="header">
+  <div class="headerleft">
+    <img src="speechbubble.svg" alt="talebobbel" />
+    <div class="socials">
+      <img src="facebook.svg" alt="facebook" />
+      <img src="instagram.svg" alt="instagram" />
+      <img src="mail.svg" alt="mail" />
+      <img src="messenger.svg" alt="messenger" />
+    </div>
+  </div>
+  <div class="headerright">
+    <img src="logogirltalk.png" alt="logo" />
+  </div>
+</div>
+
+<style>
+  .header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 95%;
+    margin: 1rem auto;
+  }
+  .headerleft {
+    display: flex;
+  }
+
+  img {
+    transform: scale(70%);
+  }
+
+  .socials {
+    display: flex;
+    margin-left: 2rem;
+  }
+
+  .headerright {
+    display: flex;
+    margin: auto;
+  }
+</style>
