@@ -5,6 +5,7 @@
 }
 
 body {
+  background-color: var(--primary);
 background-color: var(--primary);
 overflow-y: hidden;
 }
@@ -27,6 +28,7 @@ img {
 p {
   font-family: "Archivo", sans-serif;
   font-weight: 400;
+  color: var(--secondary);
 }
 
 h1,
@@ -38,6 +40,7 @@ h6 {
   font-family: "obviously", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
+  color: var(--secondary);
 }
 
 #t9_infographic_1 {
@@ -46,5 +49,5 @@ h6 {
   z-index: 100;
   display: flex;
   margin: auto;
-   border: 1.5px solid var(--secondary);
+  border: 1.5px solid var(--secondary);
 }
