@@ -1,5 +1,6 @@
 ---
 import "../global.css";
+import "../style.css";
 import Layout from "../Layouts/Layout.astro";
 import Infographic from "../components/Infographic.astro";
 import Button from "../components/Button.astro";
@@ -8,17 +9,37 @@ import Book_card from "../components/Book_card.astro";
 import SoMeCard1 from "../components/SoMeCard1.astro";
 import Wave from "../components/Wave.astro";
 import Header from "../components/Header.astro";
+import Guide_card from "../components/Guide_card.astro";
 const { variant } = Astro.props;
 ---
 
 <Layout title="GirlTalk">
   <Header />
-  <h1>GirlTalk</h1>
-  <Infographic />
-  <SoMeCard1 />
-  <SignUp_card />
-  <Book_card />
-  <Button class="button" variant="secondary">Knap</Button>
-  <Wave />
+  <div class="content">
+    <div class="grid_1_1">
+      <div class="overskrift">
+        <h1>Selvskade:</h1>
+        <h2>Hvordan kan man håndtere det?</h2>
+      </div>
+      <img class="plaster" src="bandaid.svg" alt="plaster" />
+    </div>
+    <p>Det kan være meget svært at rumme smerten og magtesløsheden, hvis man opdager, at ens datter bruger selvskade til at håndtere sine følelser. <br /> Mange forældre reagerer med frygt, forvirring, vrede og sorg, og ofte oplever forældre at blive tynget af selvbebrejdelse og fortvivlelse.</p>
+    <div class="cards">
+      <Book_card />
+      <Book_card />
+    </div>
+    <div class="signupgrid">
+      <div class="griditem">
+        <SignUp_card />
+      </div>
+      <div class="griditem">
+        <h3>Overskrift</h3>
+        <p>lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem</p>
+        <div class="mordatterflex">
+          <img src="mor.png" alt="mor" />
+          <img src="datter.png" alt="datter" />
+        </div>
+      </div>
+    </div>
+  </div>
 </Layout>
-<body></body>
