@@ -29,6 +29,12 @@
   grid-template-columns: 1fr 1fr;
 }
 
+.iggrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
 .mordatterflex {
   display: flex;
   transform: scale(80%);
