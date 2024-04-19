@@ -1,6 +1,7 @@
 .content {
   max-width: 1100px;
   margin: 0 auto;
+  width: 90vw;
 }
 
 .overskrift h2 {
@@ -33,4 +34,10 @@
   transform: scale(80%);
   position: relative;
   right: 8rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .cards {
+    display: block;
+  }
 }
