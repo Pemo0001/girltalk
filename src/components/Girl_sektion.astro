@@ -1,0 +1,100 @@
+---
+import "../global.css";
+---
+
+<div class="girl_sektion">
+  <div class="tekst">
+    <h1>Hvad kan du <br class="line_break_mobile" /> gøre <br class="line_break_computer" /> som <br class="line_break_mobile" />forældre?</h1>
+
+    <div class="copy_text">
+      <p class="undgå_panik"><b>Undgå panik</b></p>
+      <p>Når man opdager, at ens barn skader sig selv, er det <br class="line_break_computer" /> vigtigt at kontrollere sin forskrækkelse og forholde sig <br class="line_break_computer" /> roligt og omsorgsfuldt. Ofte er selvskade i forvejen <br class="line_break_computer" /> forbundet med skyld og skam hos den unge, og derfor <br class="line_break_computer" /> kan en dramatisk reaktion fra omgivelserne forværre <br class="line_break_computer" /> de negative følelser og lukke ned for <br class="line_break_computer" /> kommunikationen.</p>
+
+      <p class="vis_hende_andre_veje"><b>Vis hende andre veje</b></p>
+      <p>Støt din datter i at finde alternativer til at <br class="line_break_computer" /> skade sig selv, når hun bliver overvældet <br class="line_break_computer" /> af svære følelser. Det kan være helt <br class="line_break_computer" /> praktiske ting som åndedrætsøvelser, fysisk aktivitet, <br class="line_break_computer" /> at lytte til musik, at skrive dagbog eller at have en liste <br class="line_break_computer" /> med personer, hun kan kontakte, når hun føler trang til at <br class="line_break_computer" /> skade sig selv.</p>
+    </div>
+  </div>
+  <div class="dame">
+    <video width="500" height="600" autoplay loop muted playsinline>
+      <source src="https://www.projectjohansson.dk/kea/host_af_girl_crying/girl_winking.mp4" type="video/mp4" />
+    </video>
+  </div>
+</div>
+
+<style>
+  .line_break_mobile {
+    display: none;
+  }
+
+  .girl_sektion {
+    display: flex;
+  }
+
+  .tekst {
+    position: absolute;
+    z-index: 1;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .vis_hende_andre_veje {
+    margin-top: 9%;
+  }
+
+  .copy_text {
+    margin-top: 4%;
+  }
+
+  .dame {
+    position: relative;
+    left: 38%;
+  }
+
+  @media screen and (max-width: 850px) {
+    video {
+      width: 60%;
+    }
+    .dame {
+      left: 55%;
+    }
+  }
+
+  @media screen and (max-width: 730px) {
+    video {
+      width: 50%;
+    }
+    .dame {
+      left: 57%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .line_break_mobile {
+      display: inline;
+    }
+
+    .line_break_computer {
+      display: none;
+    }
+    h1 {
+      font-size: 2.5rem;
+    }
+    video {
+      width: 90%;
+      bottom: 50%;
+    }
+
+    .dame {
+      position: absolute;
+      left: 58%;
+      top: 174%;
+    }
+
+    .tekst {
+      position: relative;
+      z-index: 1;
+    }
+  }
+</style>
