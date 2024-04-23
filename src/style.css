@@ -27,6 +27,7 @@
 .signupgrid {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 2rem;
 }
 
 .iggrid {
@@ -37,9 +38,10 @@
 
 .mordatterflex {
   display: flex;
-  transform: scale(80%);
+  transform: scale(60%);
   position: relative;
   right: 8rem;
+  top: -3rem;
 }
 
 @media only screen and (max-width: 600px) {
