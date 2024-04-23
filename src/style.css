@@ -63,4 +63,8 @@
   .iggrid {
     display: block;
   }
+
+  .signupcard {
+    margin-bottom: 2rem;
+  }
 }
