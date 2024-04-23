@@ -46,4 +46,12 @@
   .cards {
     display: block;
   }
+
+  .signupgrid {
+    display: block;
+  }
+
+  .iggrid {
+    display: block;
+  }
 }
