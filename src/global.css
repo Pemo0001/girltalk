@@ -6,8 +6,8 @@
 
 body {
   background-color: var(--primary);
-background-color: var(--primary);
-overflow-x: hidden;
+  background-color: var(--primary);
+  overflow-x: hidden;
 }
 
 img {
@@ -29,6 +29,8 @@ p {
   font-family: "Archivo", sans-serif;
   font-weight: 400;
   color: var(--secondary);
+  font-size: 1.3rem;
+  line-height: 1.8rem;
 }
 
 h1,
