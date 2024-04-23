@@ -20,6 +20,11 @@ import "../global.css";
     </video>
   </div>
 </div>
+<div class="dame2">
+  <video width="500" height="600" autoplay loop muted playsinline>
+    <source src="https://www.projectjohansson.dk/kea/host_af_girl_crying/girl_winking.mp4" type="video/mp4" />
+  </video>
+</div>
 
 <style>
   .line_break_mobile {
@@ -51,6 +56,10 @@ import "../global.css";
     position: relative;
     left: 38%;
     padding-bottom: 10%;
+  }
+
+  .dame2 {
+    display: none;
   }
 
   @media screen and (max-width: 850px) {
@@ -92,10 +101,11 @@ import "../global.css";
     }
 
     .dame {
-      position: absolute;
-      left: 55%;
-      top: 202.5%;
-      padding-bottom: 0%;
+      display: none;
+    }
+
+    .dame2 {
+      display: block;
     }
 
     .tekst {
