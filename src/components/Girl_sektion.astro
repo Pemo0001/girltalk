@@ -8,10 +8,10 @@ import "../global.css";
 
     <div class="copy_text">
       <p class="undgå_panik"><b>Undgå panik</b></p>
-      <p>Når man opdager, at ens barn skader sig selv, er det <br class="line_break_computer" /> vigtigt at kontrollere sin forskrækkelse og forholde sig <br class="line_break_computer" /> roligt og omsorgsfuldt. Ofte er selvskade i forvejen <br class="line_break_computer" /> forbundet med skyld og skam hos den unge, og derfor <br class="line_break_computer" /> kan en dramatisk reaktion fra omgivelserne forværre <br class="line_break_computer" /> de negative følelser og lukke ned for <br class="line_break_computer" /> kommunikationen.</p>
+      <p>Når man opdager, at ens barn skader sig <br class="line_break_computer" /> selv, er det vigtigt at kontrollere sin <br class="line_break_computer" /> forskrækkelse og forholde sig roligt og <br class="line_break_computer" /> omsorgsfuldt. Ofte er selvskade i <br class="line_break_computer" /> forvejen forbundet med skyld og <br class="line_break_computer" /> skam hos den unge, og derfor kan <br class="line_break_computer" /> en dramatisk reaktion fra <br class="line_break_computer" /> omgivelserne forværre de negative <br class="line_break_computer" /> følelser og lukke ned for kommunikationen.</p>
 
       <p class="vis_hende_andre_veje"><b>Vis hende andre veje</b></p>
-      <p>Støt din datter i at finde alternativer til at <br class="line_break_computer" /> skade sig selv, når hun bliver overvældet <br class="line_break_computer" /> af svære følelser. Det kan være helt <br class="line_break_computer" /> praktiske ting som åndedrætsøvelser, fysisk aktivitet, <br class="line_break_computer" /> at lytte til musik, at skrive dagbog eller at have en liste <br class="line_break_computer" /> med personer, hun kan kontakte, når hun føler trang til at <br class="line_break_computer" /> skade sig selv.</p>
+      <p>Støt din datter i at finde alternativer til at skade sig selv, når hun bliver overvældet <br id="line_break" class="line_break_computer" /> af svære følelser. Det kan være helt praktiske ting som åndedrætsøvelser, <br id="line_break" class="line_break_computer" /> fysisk aktivitet, at lytte til musik, at skrive dagbog eller at have en liste med personer, <br id="line_break" class="line_break_computer" /> hun kan kontakte, når hun føler trang til at skade sig selv.</p>
     </div>
   </div>
   <div class="dame">
@@ -40,7 +40,7 @@ import "../global.css";
   }
 
   .vis_hende_andre_veje {
-    margin-top: 9%;
+    margin-top: 5%;
   }
 
   .copy_text {
@@ -50,6 +50,7 @@ import "../global.css";
   .dame {
     position: relative;
     left: 38%;
+    padding-bottom: 10%;
   }
 
   @media screen and (max-width: 850px) {
@@ -58,6 +59,10 @@ import "../global.css";
     }
     .dame {
       left: 55%;
+    }
+
+    #line_break {
+      display: none;
     }
   }
 
@@ -88,8 +93,9 @@ import "../global.css";
 
     .dame {
       position: absolute;
-      left: 58%;
-      top: 174%;
+      left: 55%;
+      top: 202.5%;
+      padding-bottom: 0%;
     }
 
     .tekst {
