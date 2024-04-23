@@ -1,5 +1,6 @@
 ---
 import "../global.css";
+import "../style.css";
 ---
 
 <div class="header">
@@ -19,10 +20,7 @@ import "../global.css";
 
 <style>
   .header {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    max-width: 1100px;
-    margin: 1rem auto;
+    max-width: 900px;
   }
   .headerleft {
     display: flex;
@@ -34,11 +32,37 @@ import "../global.css";
 
   .socials {
     display: flex;
-    margin-left: 2rem;
+    position: absolute;
+    right: 3%;
+    top: 2%;
   }
 
   .headerright {
     display: flex;
-    margin: auto;
+    position: absolute;
+    right: -124px;
+    top: 38px;
+    transform: scale(70%);
+  }
+
+  @media (min-width: 800px) {
+    .header {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      max-width: 900px;
+      margin: 1rem auto;
+    }
+    .socials {
+      display: flex;
+      margin-left: 2rem;
+      position: relative;
+    }
+
+    .headerright {
+      display: flex;
+      margin: auto;
+      position: relative;
+      top: 0px;
+    }
   }
 </style>
