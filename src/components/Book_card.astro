@@ -21,6 +21,9 @@ import Button from "./Button.astro";
     border-radius: 20px;
     position: relative;
     margin: 3rem 1rem;
+    min-width: 325px;
+    max-width: 450px;
+    min-height: 550px;
   }
 
   .hjerte {
@@ -29,7 +32,7 @@ import Button from "./Button.astro";
   .calendar {
     position: absolute;
     right: 1rem;
-    top: 11rem;
+    top: 9rem;
     transform: scale(75%);
   }
   h3 {
@@ -52,7 +55,7 @@ import Button from "./Button.astro";
 
   @media only screen and (max-width: 900px) {
     .calendar {
-      position: static;
+      display: none;
     }
   }
 </style>
