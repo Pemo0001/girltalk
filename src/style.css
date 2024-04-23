@@ -19,9 +19,9 @@
 }
 
 .cards {
-  display: flex;
-  justify-content: space-between;
-  margin: 2rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
 }
 
 .signupgrid {
