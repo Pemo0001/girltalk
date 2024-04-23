@@ -4,6 +4,10 @@
   width: 90vw;
 }
 
+.overskrift {
+  margin-bottom: 2rem;
+}
+
 .overskrift h2 {
   font-family: "Archivo", sans-serif;
   text-transform: none;
@@ -28,6 +32,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
+  margin-bottom: 5rem;
 }
 
 .iggrid {
@@ -36,8 +41,14 @@
   gap: 2rem;
 }
 
-.mordatterflex {
-  display: flex;
+.girls {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.girls img {
+  width: 100%;
+  margin: 0 auto;
 }
 
 @media only screen and (max-width: 600px) {
